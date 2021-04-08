@@ -1,0 +1,36 @@
+body{
+  background-color: #864000;
+  font-family: 'Creepster', cursive;
+}
+
+.container {
+  text-align: center;
+  width: 38%;
+}
+
+.col {
+  padding: 0.5rem;
+}
+
+.title {
+  text-align: center;
+  color: orange;
+}
+
+.app-name{
+  font-size: 6rem;
+}
+
+.timer, .number-of-flips {
+  display: inline;
+  color: #fff;
+}
+
+.timer {
+  margin-right: 22rem;
+}
+
+.card-rotate {
+  transform: rotateY(180deg);
+  transition-duration: 1s;
+}
